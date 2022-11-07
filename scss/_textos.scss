@@ -1,0 +1,42 @@
+$bgfondotextos1: #533c46;
+$bgfondotextos2: #5f5f5f9d;
+$textos: #8d0505;
+$bordes: #3a1c3ad0;    
+
+@mixin textos($bgcuadros){
+    background: radial-gradient(circle, #945771af 0%, #94bce96c 100%);
+    background-color: $bgfondotextos1;
+    color: $textos;
+    font-family: 'Merienda', cursive;
+    line-height: 2.5;
+    border: double 10px $bordes;
+    border-radius: 5%;
+    width: auto;
+    display: inline-block;
+    padding: 80px;
+    text-align: center;
+}
+@media only screen and (max-width: 500px) 
+    * {
+      background-color: #a86262; 
+    }
+    body {
+      background-color: #971075; 
+    }
+    main {
+      font-size: 0.7rem;
+      width: auto;
+      height: auto; 
+    }
+    h1 {
+      font-size: 1.3rem;
+      color: #47126b; 
+    }
+    h2 {
+      font-size: 1.1rem;
+      color: #704425; 
+    }
+    h3 {
+      font-size: 1rem;
+      color: #422555; 
+    }

@@ -1,0 +1,35 @@
+h1 {
+    color: $titulos;
+    font-family: 'Palette Mosaic', cursive;
+    line-height: 1.6;
+    text-align: center; 
+} 
+main 
+  text-align: center;
+  div {
+      color: white;
+      text-align: center; 
+  }
+  fieldset {
+      justify-content: center;
+      display: inline-block; 
+      div {
+          color: white;
+          text-align: center; 
+      }
+}
+
+.texto {
+    background: #eeaeca;
+    background: radial-gradient(circle, #eeaeca #94bbe9 100%);
+    color: #460846;
+    font-family: 'Merienda', cursive;
+    line-height: 2.5;
+    border: double 10px #6e256e;
+    border-radius: 15%;
+    width: auto;
+    display: inline-block;
+    padding: 80px;
+    text-align: center;
+  
+}
